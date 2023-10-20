@@ -1,0 +1,51 @@
+.cart {
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .trash {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    i {
+      color: red;
+    }
+  }
+}
+
+.quantity {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+
+    i {
+      color: black;
+      font-size: 15px;
+    }
+  }
+}
+.total-section {
+  border: 1px solid #ccc;
+  padding: 40px;
+  border-radius: 10px;
+  width: 500px;
+  .total {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-bottom: 20px;
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}

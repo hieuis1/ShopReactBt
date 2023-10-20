@@ -1,0 +1,20 @@
+.card {
+  background-color: #f1f1ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  img {
+    width: 80%;
+    height: 400px;
+    object-fit: contain;
+  }
+  button {
+    background: #6e7051 !important;
+    border: none;
+  }
+  .btn {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,47 @@
+.shop {
+  h2 {
+    color: #6e7051;
+  }
+  background-color: #f1f1ef;
+  .shop-content {
+    background: #fff;
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    color: #979a9b;
+    .search {
+      border: #979a9b 1px solid;
+      height: 35px;
+      padding: 5px 5px 7px 5px;
+      border-radius: 999px;
+      i {
+        margin-left: 5px;
+      }
+      input {
+        border: none;
+        outline: none;
+        height: 100%;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-products {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+select {
+  text-align: center;
+}

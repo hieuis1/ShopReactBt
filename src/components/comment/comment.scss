@@ -1,0 +1,55 @@
+h3 {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.last {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #b9b3b3;
+  margin-top: 50px;
+}
+.list-comment {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  .item {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .desc {
+      font-size: 18px;
+      font-weight: 600;
+      color: #262b2c;
+      margin: 10px 0;
+      word-spacing: 2px;
+      line-height: 29px;
+    }
+    i {
+      color: orange;
+      font-size: 13px;
+    }
+    .bot {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.section-comment {
+  margin-top: 100px;
+}

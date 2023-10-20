@@ -1,0 +1,59 @@
+.better {
+  margin-top: 50px;
+  background-image: url(https://websitedemos.net/recycled-shoe-store-04/wp-content/uploads/sites/983/2021/11/recycled-shoe-store-cta-image-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  .content {
+    width: 60vw;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h2 {
+      color: #ffffff;
+      font-size: 64px;
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      background-color: #ffffff !important;
+      border: none;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+.better-bot {
+  .list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    border-bottom: 1px #ccc solid;
+    li {
+      font-size: 20px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      p {
+        margin-top: 15px;
+      }
+    }
+    .space {
+      font-size: 30px;
+      color: #ccc;
+    }
+  }
+}
